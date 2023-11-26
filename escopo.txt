@@ -1,0 +1,56 @@
+<!-- SOBRE -->
+- Um sistema de bate-papo entre amigos
+- Terminar até final de Dezembro
+- O intuito é melhor minhas competências técnicas
+
+<!-- FUNCIONALIDADES -->
+// USUÁRIO:
+- Cadastrar uma conta
+- Realizar o login
+- Editar e deletar o perfil
+
+// AMIGOS:
+- Adicionar um amigo
+- Mostrar todos os amigos
+- Aceitar um pedido de amizade
+- Criar um chat com um amigo
+- Excluir um amigo
+- Filtrar por um amigo
+
+// DIRECT:
+- Mostrar todas as mensagens enviadas
+- Filtrar mensagens
+
+// GRUPOS:
+- Criar um grupo
+- Adicionar amigos para esse grupo
+- Mostrar todas os grupos que ele participa
+- Filtrar por um grupo
+- Sair de um grupo
+- Deletar ou editar um grupo que o usuário criou
+
+// CHAT:
+- Envio de mensagens
+- Notificação de novas mensagens
+- Mostrar mensagens do chat
+- Apagar uma mensagem
+
+<!-- MODELAGEM BANCO DE DADOS -->
+// USERS:
+- ID: int auto_increment PK not null
+- name: varchar(45) not null
+- email: varchar(45) not null
+- nickname: varchar(20) not null
+- avatar: varchar(255)
+- confirmed: bit default 0
+
+// FRIENDS:
+- ID
+- 
+
+<!-- O QUE SERÁ UTILIZADO? -->
+
+<!-- ESTRUTURA -->
+// FRONT-END:
+
+// BACK-END:
